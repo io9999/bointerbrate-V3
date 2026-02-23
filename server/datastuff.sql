@@ -10,3 +10,5 @@ CREATE TABLE levels_table (
     verifier TEXT NOT NULL
 );
 
+INSERT INTO table_name (level_name, level_type, gd_level_id, verification_video, creators, verifier)
+VALUES ($1, $2, $3, $4, $5, $6);
